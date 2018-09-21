@@ -1,6 +1,6 @@
 # Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: Revision 1 jay@arg.org Exp $
+# $Header: http://ftp.pingwho.org/pub/gentoo/ftp/overlay/picoscope-overlay/dev-libs/usbtc08/usbtc08-1.8.8.1.06.ebuild revision 1 09/21/2018 jay Exp $
 
 EAPI=5
 
@@ -11,7 +11,9 @@ HOMEPAGE="http://www.picotech.com/picoscope-oscilloscope-software.html"
 
 MY_V=(${PV//./ })
 MY_PV=${MY_V[0]}"."${MY_V[1]}"."${MY_V[2]}"-"${MY_V[3]}"r"${MY_V[4]}
-SRC_URI="amd64? ( http://labs.picotech.com/rpm/x86_64/libusbtc08-${MY_PV}.x86_64.rpm http://ftp.pingwho.org/pub/gentoo/ftp/distfiles/rpms/libusbtc08-${MY_PV}.x86_64.rpm )"
+
+SRC_URI="amd64? ( http://labs.picotech.com/rpm/x86_64/libusbtc08-${MY_PV}.x86_64.rpm \
+	http://ftp.pingwho.org/pub/gentoo/ftp/distfiles/rpms/libusbtc08-${MY_PV}.x86_64.rpm )"
 RESTRICT="mirror"
 
 LICENSE="PICO"
