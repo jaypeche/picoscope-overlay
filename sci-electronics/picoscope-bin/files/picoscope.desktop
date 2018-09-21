@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=PicoScope
+GenericName=PicoScope 6 for Linux
+Comment=PicoScope USB Oscilloscope Graphical Interface
+Exec=/opt/picoscope/bin/picoscope
+Icon=/opt/picoscope/share/picoscope.png
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Categories=GNOME;GTK;Science;Electronics;
+Encoding=UTF-8
+StartupNotify=true
+MimeType=application/x-psdata;

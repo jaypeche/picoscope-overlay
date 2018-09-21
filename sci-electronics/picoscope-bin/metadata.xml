@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>jaypeche@gmail.com</email>
+		<description>Primary maintainer</description>
+	</maintainer>
+		<longdescription>PicoScope is the standard in PC Oscilloscope software</longdescription>
+			<use>
+				<flag name="p(l|s)xxxx">Userspace drivers for each model</flag>
+			</use>
+</pkgmetadata>

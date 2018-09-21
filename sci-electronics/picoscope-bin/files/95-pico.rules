@@ -1,0 +1,1 @@
+ATTRS{idVendor}=="0ce9", MODE="664", GROUP="pico"
