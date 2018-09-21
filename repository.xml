@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "https://www.gentoo.org/dtd/repositories.dtd">
+<repositories xmlns="" version="1.0">
+    <repo priority="50" quality="experimental" status="unofficial">
+        <name>picoscope-overlay</name>
+        <description lang="en">PicoScope v6+ Gentoo Linux overlay</description>
+        <homepage>https://www.picotech.com/downloads/linux.html</homepage>
+        <owner type="person">
+            <email>jaypeche@gmail.com</email>
+            <name>jaypeche</name>
+        </owner>
+        <source type="git">git://github.com/jaypeche/picoscope-overlay.git</source>
+        <source type="git">https://github.com/jaypeche/picoscope-overlay.git</source>
+    </repo>
+</repositories>
