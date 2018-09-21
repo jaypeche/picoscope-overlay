@@ -9,3 +9,7 @@
 	+ New overlay for PicoScope v6.13.7b, userspace drivers and dependencies.
 	(Based on officials Red Hat Linux x86_64 RPMs packages)
 
+* sci-electronics/picoscope-bin-6.13.7.4.707
+	(21 Sep 2018) jay <jaypeche@gmail.com>
+	+ Create Github picoscope-overlay for PicoScope v6.13.7b+, userspace drivers and dependencies.
+
