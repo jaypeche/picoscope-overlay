@@ -49,7 +49,7 @@ root # emaint sync -r picoscope-overlay
 =dev-libs/ps2000a-2.1.0.6.570 ~amd64
 ```
 
-* Edit /etc/portage/package.use/picoscope and add appropriate drivers :
+* Edit /etc/portage/package.use/picoscope and select the appropriate driver :
 
 ```
 # Check your oscilloscope hardware specifications (ps2000a in this case) :
