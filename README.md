@@ -2,7 +2,7 @@
 PicoScope v6+ [Gentoo Linux](https://www.gentoo.org/get-started/about/) overlay
 [Distributed by Pico Technology 2018 Ltd](https://www.picotech.com/)
 
-## Install overlay :
+## Import overlay :
 
 Since version 2.2.16, Portage has a native mechanism for adding overlays.
 
