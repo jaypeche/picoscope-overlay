@@ -49,7 +49,7 @@ root # emaint sync -r picoscope-overlay
 =dev-libs/ps2000a-2.1.0.6.570 ~amd64
 ```
 
-* Edit /etc/portage/package.use/picoscope and select the appropriate driver :
+* Edit /etc/portage/package.use/picoscope and select the appropriate driver lihe this :
 
 ```
 # Check your oscilloscope hardware specifications (PicoScope 2206A -> ps2000a in this case) :
@@ -58,8 +58,10 @@ root # emaint sync -r picoscope-overlay
 						-scope_ps5000 -scope_ps5000a scope_ps6000
 ```
 
-* Now, you can emerge PicoScope software, like this :
+* Now, you can emerge PicoScope software :
 
 ```
 root # emerge -av picoscope-bin
 ```
+
+* Enjoy !
