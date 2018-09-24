@@ -13,7 +13,7 @@ root # mkdir -p /etc/portage/repos.conf
 root # wget -c https://raw.githubusercontent.com/jaypeche/picoscope-overlay/master/picoscope-overlay.conf -O /etc/portage/repos.conf/picoscope-overlay.conf
 ```
 
-* Edit the "path" variable in /etc/portage/repos.conf/picoscope-overlay.conf to suit your overlay storage path
+* Edit the "location" variable in /etc/portage/repos.conf/picoscope-overlay.conf to suit your overlay storage path
 (for example, /usr/local/portage/picoscope-overlay).
 
 ## Synchronize repository :
