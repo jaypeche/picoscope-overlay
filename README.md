@@ -64,4 +64,20 @@ root # emaint sync -r picoscope-overlay
 root # emerge -av picoscope-bin
 ```
 
+
+As mentioned, do not forget to add your user to the group "pico"
+
+
+```
+root # usermod -m -G pico your_user
+```
+
+
+Now run as user like this :
+
+
+```
+user $ /opt/picoscope/bin/picoscope
+```
+
 * Enjoy !
