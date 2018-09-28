@@ -65,7 +65,7 @@ root # emerge -av picoscope-bin
 ```
 
 
-* As mentioned, do not forget to add your user to the group "pico"
+* As mentioned, do not forget to add your user to "pico" group.
 
 
 ```
@@ -73,5 +73,5 @@ root # usermod -m -G pico your_user
 ```
 
 
-* Now run as user, from your desktop manager in Applications/Electronics/picoscope desktop menu ...
+* Now run as user, from your desktop manager in Applications/Electronics/PicoScope desktop menu ...
 * Enjoy !
