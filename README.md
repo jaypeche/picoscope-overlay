@@ -78,7 +78,7 @@ root # emerge -av picoscope-bin
 
 
 ```
-root # usermod -m -G pico your_user
+root # usermod -a -G pico your_user
 ```
 
 
