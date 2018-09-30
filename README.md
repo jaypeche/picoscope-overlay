@@ -73,5 +73,5 @@ root # usermod -m -G pico your_user
 ```
 
 
-* Now run as user, from your desktop manager in Applications/Electronics/PicoScope desktop menu ...
+* Now run as user, from your desktop environment in Applications/Electronics/PicoScope menu ...
 * Enjoy !
