@@ -18,6 +18,15 @@ root # wget -c https://raw.githubusercontent.com/jaypeche/picoscope-overlay/mast
 
 ## Synchronize repository :
 
+* Modify /etc/portage/make.conf for overlay folder support,
+  and create overlay storage folder if not exist !
+
+
+```
+root # echo "PORTDIR_OVERLAY=/usr/local/portage" >> /etc/portage/make.conf
+root # mkdir -p /usr/local/portage
+```
+
 * Now you can sync the overlay using :
 
 ```
