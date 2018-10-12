@@ -82,5 +82,5 @@ root # usermod -a -G pico your_user
 ```
 
 
-* Now run as user, from your desktop environment in Applications/Electronics/PicoScope menu ...
-* Enjoy !
+* The launcher of the picoscope is available at Applications\/Electronics\/PicoScope
+
