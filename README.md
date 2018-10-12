@@ -82,5 +82,5 @@ root # usermod -a -G pico your_user
 ```
 
 
-* The launcher of the picoscope is available at Applications\/Electronics\/PicoScope
+* PicoScope launcher is available at Applications\/Electronics\/PicoScope
 
