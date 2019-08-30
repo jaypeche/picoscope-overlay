@@ -49,10 +49,10 @@ root # emaint sync -r picoscope-overlay
 =dev-libs/picoipp-1.3.0.4.21 ~amd64
 # required by sci-electronics/picoscope-bin-6.13.7.4.707::x-portage
 # required by picoscope-bin (argument)
-=dev-libs/usbpt104-1.2.0.1.16 ~amd64
+=dev-libs/usbpt104-2.0.17.1.1441 ~amd64
 # required by sci-electronics/picoscope-bin-6.13.7.4.707::x-portage
 # required by picoscope-bin (argument)
-=dev-libs/plcm3-1.2.0.1.08 ~amd64
+=dev-libs/plcm3-2.0.17.1.1441 ~amd64
 
 # UserSpace drivers for 2000a series scope (check config for your own hardware)
 =dev-libs/ps2000a-2.1.0.6.570 ~amd64
