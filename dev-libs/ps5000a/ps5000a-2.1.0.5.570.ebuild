@@ -13,7 +13,7 @@ MY_V=(${PV//./ })
 MY_PV=${MY_V[0]}"."${MY_V[1]}"."${MY_V[2]}"-"${MY_V[3]}"r"${MY_V[4]}
 
 SRC_URI="amd64? ( https://labs.picotech.com/rpm/x86_64/lib${PN}-${MY_PV}.x86_64.rpm  \
-	http://ftp.pingwho.org/pub/gentoo/ftp/distfiles/rpms/lib${PN}-${MY_PV}.x86_64.rpm )"
+	https://ftp.pingwho.org/pub/gentoo/ftp/distfiles/rpms/lib${PN}-${MY_PV}.x86_64.rpm )"
 RESTRICT="mirror"
 
 LICENSE="PICO"

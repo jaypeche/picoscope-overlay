@@ -13,7 +13,7 @@ MY_V=(${PV//./ })
 MY_PV=${MY_V[0]}"."${MY_V[1]}"."${MY_V[2]}"-"${MY_V[3]}"r"${MY_V[4]}
 
 SRC_URI="https://labs.picotech.com/rpm/noarch/picoscope-${MY_PV}.noarch.rpm \
-         http://ftp.pingwho.org/pub/gentoo/ftp/distfiles/rpms/picoscope-${MY_PV}.noarch.rpm"
+         https://ftp.pingwho.org/pub/gentoo/ftp/distfiles/rpms/picoscope-${MY_PV}.noarch.rpm"
 RESTRICT="mirror"
 
 LICENSE="PICO"
@@ -41,8 +41,8 @@ RDEPEND="
 	>=dev-libs/libusb-1.0.21
 	=dev-libs/picoipp-1.3.0.4.21
 	=dev-libs/usbdrdaq-2.0.0.1.570
-	=dev-libs/plcm3-1.2.0.1.08
-	=dev-libs/usbpt104-1.2.0.1.16"
+	=dev-libs/plcm3-2.0.17.1.1441
+	=dev-libs/usbpt104-2.0.17.1.1441"
 
 PDEPEND="
 	scope_pl1000?	( =dev-libs/pl1000-2.0.0.1.570 )
