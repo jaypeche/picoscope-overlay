@@ -81,12 +81,13 @@ src_install()
 pkg_postinst() {
 	einfo
 	xdg_desktop_database_update || die "Update .desktop database failed !"
-	einfo
+	elog
 	elog "Please note that you will have to install the corresponding driver"
 	elog "for your device. Consult dev-libs/psXXXX packages corresponding"
 	elog "to your device. You may get some help determining which driver to"
 	elog "pull in at: http://www.picotech.com/linux.html"
 	elog "Note that you have to be either root or member of the group pico to"
-	elog "be able to use picoscope devices. You can add a user to the pico group"
-	elog "using usermod -a -G pico <username>"
+	elog "be able to use picoscope devices. You can add a user to the pico group using"
+	elog "# usermod -a -G pico <username>"
+	elog
 }
