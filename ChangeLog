@@ -4,6 +4,11 @@
 # $Header: http://ftp.pingwho.org/pub/gentoo/ftp/overlay/picoscope-overlay 17/08/18 jay Exp $
 
 
+* sci-electronics/picoscope-bin-6.14.17.4.544
+	(11 Apr 2020) jay <jaypeche@gmail.com>
+	+ PicoScope v6.14.17b, userspace drivers and dependencies, version bump.
+	(Based on officials Red Hat Linux x86_64 RPMs packages)
+
 * sci-electronics/picoscope-bin-6.13.7.4.707
 	(17 Sep 2018) jay <jaypeche@gmail.com>
 	+ New overlay for PicoScope v6.13.7b, userspace drivers and dependencies.
