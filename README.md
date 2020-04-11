@@ -64,7 +64,7 @@ root # emaint sync -r picoscope-overlay
 # Check your oscilloscope hardware specifications (PicoScope 2206A -> ps2000a in this case) :
 
 >=sci-electronics/picoscope-bin-6.13.7.4.707    scope_ps2000a -scope_pl1000 -scope_ps2000 scope_ps3000 -scope_ps3000a -scope_ps4000 -scope_ps4000a \
-						-scope_ps5000 -scope_ps5000a scope_ps6000
+						-scope_ps5000 -scope_ps5000a -scope_ps6000 -scope_ps6000a
 ```
 
 * Now, you can emerge PicoScope software :
